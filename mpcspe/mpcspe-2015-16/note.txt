@@ -1,0 +1,34 @@
+m money
+b bet
+n rounds
+if result is head
+  m_next = m+b
+if result is tail
+  m_next = m-b
+
+end if
+  n rounds or
+  m <= 0
+
+tail : b_next = min(2*b_cur,m_next)
+head : b_next = min(b1,m_next)
+
+round 1
+m = 100
+b = 5
+n = 4
+[0 1 0 0]
+
+round 0
+m = 10
+b = 5
+n = 2
+[0 0]
+
+start m = 10 , first bet 5  LOSE
+m = 5, betting at 5 LOSE
+m = 0
+///
+
+recursion palindrome
+
